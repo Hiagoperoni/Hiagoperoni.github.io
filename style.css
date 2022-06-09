@@ -44,16 +44,36 @@
 
 #Nome {
     border: 3px solid red;
-    width: fit-content;
+    width: 400px;
+    padding: 1em;
+    text-align: center;
 }
 
 #Foto-de-Perfil {
     border: 3px solid green;
     width: fit-content;
+    float: left;
+    padding: 5px;
+    background-color: black;
+    
     
 }
 
 #Sobre-Mim {
     border: 3px solid black;
-    width: fit-content;
+    width: 300px;
+    float: right;
+    
+}
+
+#Foto-e-Descricao {
+    border: 3px solid yellow;
+    display: inline-block;
+    padding: 3em;
+    vertical-align: middle;
+}
+
+li:nth-child(odd) {
+    color: rgb(68, 68, 68);
+
 }
