@@ -1,0 +1,59 @@
+
+        h2 {
+            font-family: 'Satisfy', cursive;
+            font-size: 3em;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+
+        body {
+            background-color: #689CB6;
+        }
+        .arredondar-foto {
+            border-radius: 10%;
+        }
+
+        .botoes {
+            background-color: #9fa3a5;
+            padding: 10px 10px;
+            border-radius: 10%;
+            text-decoration: none;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            border-style: solid;
+            border-width: thin;
+            line-height: 25px;
+            box-shadow: 2px 2px rgba( 0, 0, 0, 0.4);
+            text-shadow: 1px 1px rgba( 0, 0, 0, 0.4);
+            background-image: linear-gradient(to bottom right, rgb(90, 90, 90), rgb(163, 162, 162));
+            
+            
+        }
+        
+        li {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+
+        .sombras {
+            text-shadow: 1px 1px rgba( 0, 0, 0, 0.4);
+        }
+
+#Nome {
+    border: 3px solid red;
+    width: fit-content;
+}
+
+#Foto-de-Perfil {
+    border: 3px solid green;
+    width: fit-content;
+    
+}
+
+#Sobre-Mim {
+    border: 3px solid black;
+    width: fit-content;
+}
