@@ -1,4 +1,6 @@
-
+body {
+    padding: 3%;
+}
         h2 {
             font-family: 'Satisfy', cursive;
             font-size: 3em;
@@ -42,38 +44,38 @@
             text-shadow: 1px 1px rgba( 0, 0, 0, 0.4);
         }
 
-#Nome {
-    border: 3px solid red;
-    width: 400px;
-    padding: 1em;
+
+.minha-foto {
+    float: left;
+    padding: 10px;
+    background-color: black;
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+.meunome {
     text-align: center;
 }
 
-#Foto-de-Perfil {
-    border: 3px solid green;
-    width: fit-content;
-    float: left;
-    padding: 5px;
-    background-color: black;
-    
-    
-}
-
-#Sobre-Mim {
-    border: 3px solid black;
-    width: 300px;
-    float: right;
-    
-}
-
-#Foto-e-Descricao {
-    border: 3px solid yellow;
-    display: inline-block;
-    padding: 3em;
-    vertical-align: middle;
+.descricao {
+    position: absolute;
+    top: 75px;
+    left: 400px;
 }
 
 li:nth-child(odd) {
     color: rgb(68, 68, 68);
 
+}
+
+#Menu-do-Topo {
+    display: inline-block;
+    width: 80%;
+}
+
+#Skills {
+    width: 100px;
 }
